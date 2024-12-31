@@ -19,7 +19,7 @@ function CarDetails(props) {
   } = props;
 
   return (
-    <div className="max-w-[900px] my-10 mx-auto flex flex-col">
+    <div className="max-w-[900px] my-10 mx-auto flex flex-col max-sm:mx-[15px]">
       <img src={image} alt={name} className="w-full rounded-md" />
       <h3 className="mt-10 mx-0 mb-5 text-2  px-5">
         {name} {model}
